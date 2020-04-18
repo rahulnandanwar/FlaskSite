@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 FLask==1.1.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
@@ -9,16 +8,4 @@ numpy>=1.9.2
 scipy>=0.15.1
 scikit-learn>=0.18
 matplotlib>=1.4.3
-=======
-FLask==1.1.1
-gunicorn==19.9.0
-itsdangerous==1.1.0
-Jinja2==2.10.1
-MarkupSafe==1.1.1
-Werkzeug==0.15.5
-numpy>=1.9.2
-scipy>=0.15.1
-scikit-learn>=0.18
-matplotlib>=1.4.3
->>>>>>> 68d1bc99385cc60a7970c4728b21369e428a9cb2
 pandas>=0.19
