@@ -1,0 +1,45 @@
+{% extends "Base.html"%}
+{% block content %}
+ <div class="p-3 mb-2 bg-gradient-success text-white">.bg-gradient-success</div>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://image.shutterstock.com/image-photo/natural-language-processing-concept-word-260nw-419939152.jpg" alt="Image Missing">
+          <div class="card-body">
+            <h4 class="card-title">Text Classification</h4>
+            <p class="card-text">Natural Language Processing application to classify your text message as spam or ham (Not Spam)</p>
+          </div>
+          <div class="card-footer">
+            <a href="{{url_for('spamClassifier')}}" class="btn btn-primary">Checkout Application</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+          <div class="card-body">
+            <h4 class="card-title">New Application will launch soon</h4>
+            <p class="card-text">We are working at our end and new application will be launch soon. Stay Tuned...!!!</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Checkout Application</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+          <div class="card-body">
+            <h4 class="card-title">New Application will launch soon</h4>
+            <p class="card-text">We are working at our end and new application will be launch soon. Stay Tuned...!!!</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Checkout Application</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+{% endblock %}

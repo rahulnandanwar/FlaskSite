@@ -1,0 +1,32 @@
+{% extends "Base.html"%}
+{% block content %}
+
+	<header>
+		<div class="container" align="center">
+		<div id="brandname">
+			Machine Learning App with Flask
+		</div>
+		<h2 align="center">Spam Detector For Email Messages</h2>
+
+		<p align="center"> This application has developed to categorize text message received on your mobile in spam or ham.
+		Now days we are receiving so many messages and notification from various sources and we know that all the sources are
+		not authorised. You can simply enter your received message here and you will get to know weather the message is spam or ham.</p>
+
+	</div>
+	</header>
+
+	<div class="ml-container" align="center">
+
+		<form action="{{ url_for('spamClassifierResult')}}" method="POST">
+		<h4>Enter Your Message Here</h4>
+		<!-- <input type="text" name="comment"/> -->
+		<textarea name="message" rows="6" cols="50"></textarea>
+		<br/>
+
+		<input type="submit" class="btn-info" value="predict">
+
+	</form>
+
+	</div>
+
+{% endblock %}
